@@ -14,10 +14,9 @@
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8845" path="./" revision="oneplus/sm8845_b_16.0.0_ace_6t"/>
   <project remote="aosp" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty"/>
-  <project remote="aosp" name="platform/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" groups="ddk">
-    <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
-  </project>
-    <project path="kernel_platform/build/kernel" name="kernel/build" groups="ddk">
+  <project remote="aosp" name="platform/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" groups="ddk" />
+  <project path="kernel_platform/build/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="kernel_platform/build/kernel" name="kernel/build" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="kernel_platform/tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel_platform/MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel_platform/WORKSPACE.bzlmod" />
