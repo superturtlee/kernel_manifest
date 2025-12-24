@@ -16,7 +16,7 @@
   <project remote="aosp" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty"/>
   <project remote="aosp" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" groups="ddk" />
   <project remote="aosp" name="kernel/prebuilts/build-tools" path="kernel_platform/build/prebuilts/kernel-build-tools" clone-depth="1" groups="ddk" />
-  <project remote="aosp" name="platform/build/bazel_common_rules" revision="main-kernel-2024" path="kernel_platform/build/bazel_common_rules" groups="ddk"/>
+  <project remote="aosp" name="platform/build/bazel_common_rules" revision="main-kernel-build-2024" path="kernel_platform/build/bazel_common_rules" groups="ddk"/>
   <project remote="aosp" name="platform/external/bazel-contrib-bazel_features" path="kernel_platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
   <project remote="aosp" name="platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" groups="ddk-external"/>
   <project remote="aosp" name="platform/external/bazelbuild-bazel-central-registry" path="kernel_platform/external/bazelbuild-bazel-central-registry" groups="ddk-external"/>
