@@ -16,11 +16,6 @@
   <project remote="aosp" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty"/>
   <project remote="aosp" name="platform/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" groups="ddk" />
   <project path="kernel_platform/build/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
-  <project path="kernel_platform/build/kernel" name="kernel/build" groups="ddk">
-    <linkfile src="kleaf/bazel.sh" dest="kernel_platform/tools/bazel" />
-    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel_platform/MODULE.bazel" />
-    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel_platform/WORKSPACE.bzlmod" />
-  </project>
   <project remote="aosp" name="platform/build/bazel_common_rules" revision="android16-release" path="kernel_platform/build/bazel_common_rules" groups="ddk"/>
   <project remote="aosp" name="platform/external/bazel-contrib-bazel_features" path="kernel_platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
   <project remote="aosp" name="platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" groups="ddk-external"/>
