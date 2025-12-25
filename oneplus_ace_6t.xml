@@ -33,6 +33,8 @@
   <project remote="aosp" name="platform/external/toybox" path="kernel_platform/external/toybox" groups="ddk"/>
   <project remote="aosp" name="platform/external/zlib" path="kernel_platform/external/zlib" groups="ddk"/>
   <project remote="aosp" name="platform/external/zopfli" path="kernel_platform/external/zopfli" groups="ddk"/>
+  <project remote="aosp" name="platform/external/libcap-ng" path="kernel_platform/external/libcap-ng"/>
+  <project remote="aosp" name="platform/external/libcap" path="kernel_platform/external/libcap"/>
   <project remote="aosp" name="platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite"/>
   <project remote="aosp" name="platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" groups="ddk">
     <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
