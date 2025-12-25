@@ -26,6 +26,7 @@
   <project remote="aosp" name="platform/external/bazelbuild-rules_pkg" path="kernel_platform/external/bazelbuild-rules_pkg" groups="ddk-external"/>
   <project remote="aosp" name="platform/external/bazelbuild-rules_python" path="kernel_platform/external/bazelbuild-rules_python" groups="ddk-external"/>
   <project remote="aosp" name="platform/external/bazelbuild-rules_shell" path="kernel_platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
+  <project remote="aosp" name="platform/external/bazelbuild-rules_rust" path="kernel_platform/external/bazelbuild-rules_rust" groups="ddk-external" />
   <project remote="aosp" name="platform/external/dtc" path="kernel_platform/external/qcom-dtc"/>
   <project remote="aosp" name="platform/external/lz4" path="kernel_platform/external/lz4" groups="ddk"/>
   <project remote="aosp" name="platform/external/pigz" path="kernel_platform/external/pigz" groups="ddk"/>
