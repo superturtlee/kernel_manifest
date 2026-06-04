@@ -46,7 +46,7 @@
   <project remote="clo-la" name="kernel_platform/system/libufdt" path="kernel_platform/external/libufdt" revision="9b70f594cf149c7c73989c78f03d210f8aa1c1f6" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="3884b85673aef00c389ad63548bd5752a7d26bc2" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="e535051ebc04204cec44bde38f62385d63180388" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
-  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="7cb95284aba215c2e1bbb70f545867f3d9295d58" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
+  <project remote="superturtlee" name="clang" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="main" groups="ddk"/>
   <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="92f8fa6897cf88a2fe857287682a089e9b53dca5" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
