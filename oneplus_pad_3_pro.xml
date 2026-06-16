@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
-  <remote fetch="http://localhost:14920" name="local"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="origin" name="android_kernel_common_oneplus_sm8850" path="kernel_platform/common" revision="oneplus/sm8850_b_16.0_pad_3_pro">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
@@ -35,18 +34,20 @@
   <project remote="clo-la" name="kernel_platform/external/toybox" path="kernel_platform/external/toybox" revision="83b68c20ece583bc4548322454b159b7f1e8b45f" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/external/zlib" path="kernel_platform/external/zlib" revision="3236d3c9b06373861f36c0e1074cb7e6a59a3eb3" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/external/zopfli" path="kernel_platform/external/zopfli" revision="6f21a62d23c536a86a5254cc9a38c8c10c846082" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
-  <project remote="local" name="build_tools" path="kernel_platform/prebuilts/build-tools" revision="main" groups="ddk">
+  <project remote="clo-la" name="kernel_platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite" revision="4d7c778e792fbb56ced787158817ba1f17c68f3e" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="951b0e9b947327fe485b2553faef2ed34f8e148d" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
   </project>
   <project remote="clo-la" name="kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="8d2e8177f56ed0543cc8866ecad6f9f32f25fffe" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
   <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="6534511b85c006a29ee80870b4a6ccf87adba128" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
-  <project remote="local" name="rust" path="kernel_platform/prebuilts/rust" revision="main" groups="ddk"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/rust" path="kernel_platform/prebuilts/rust" revision="6ff98fecc15373d056564f1ad13508f812d90fa9" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/system/libufdt" path="kernel_platform/external/libufdt" revision="9b70f594cf149c7c73989c78f03d210f8aa1c1f6" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="3884b85673aef00c389ad63548bd5752a7d26bc2" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="e535051ebc04204cec44bde38f62385d63180388" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
-  <project remote="local" name="clang" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="main" groups="ddk"/>
+  <project remote="clo-la" name="kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="1af373e4210e3eacf056c56182140d3ef0a22379" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="7cb95284aba215c2e1bbb70f545867f3d9295d58" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk"/>
   <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="92f8fa6897cf88a2fe857287682a089e9b53dca5" upstream="refs/heads/ks-kernel.lnx.5.0.r3-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
